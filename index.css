@@ -311,7 +311,7 @@ ul {
 
 @media (max-width: 576px) {
     .prop-amenities-section .grand-heading h1 {
-        font-size: 120px; /* Adjust font size for mobile */
+        font-size: 100px; /* Adjust font size for mobile */
         margin-top: -50px; /* Adjust margin-top for mobile */
     }
 }
@@ -454,7 +454,7 @@ img {
     border-style: none;
 }
 .tunga1 {
-    width: 365px !important;
+    width: 360px !important;
     height: 480px !important;
     float: left !important;
     margin-left: 5% !important;
