@@ -571,6 +571,16 @@ section {
     }
     
 }
+@media(max-width:365px){
+    .tunga1 {
+        width: 325px !important;
+        height: 480px !important;
+        float: left !important;
+        margin-left: 4% !important;
+        position: relative !important;
+        margin-top: -5em;
+    }
+}
 .prop-brochure-photo-section .outer-layer .prop-detailed .prop-content .heading {
     color: #1C1E27;
     font-size: 48px;
