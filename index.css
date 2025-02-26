@@ -550,10 +550,26 @@ section {
     padding: 64px;
 }
 .prop-brochure-photo-section .outer-layer .prop-detailed {
+    margin-left: -30px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
     border-bottom: 1px solid #D1EEEA;
+}
+.prop-brochure-photo-section .outer-layer .prop-detailed{
+    flex-direction: row;
+}
+@media only screen and (max-width:576px) {
+    .prop-brochure-photo-section .outer-layer .prop-detailed{
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width:768px) {
+    .compoentent-image-text .compent-layout:nth-child(odd){
+        flex-direction: column !important;
+    }
+    
 }
 .prop-brochure-photo-section .outer-layer .prop-detailed .prop-content .heading {
     color: #1C1E27;
@@ -736,6 +752,7 @@ section {
 }
 @media only screen and (min-width: 1024px) {
     .compoentent-image-text .compent-layout .image-layer .main-image {
+        flex-direction: column;
         height: 800px !important;
         object-fit: cover !important;
         width: 80% !important;
