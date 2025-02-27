@@ -1081,6 +1081,7 @@ a {
 }
 .whatsapp_icon {
     position: fixed;
+    padding-left: 10px;
     right: 30px;
     bottom: 60px;
     width: 45px;
@@ -1095,7 +1096,7 @@ a {
     box-shadow: 0 0 10px rgb(0 0 0 / 15%);
 }
 .fa-whatsapp::before{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .fa {
     display: inline-block;
