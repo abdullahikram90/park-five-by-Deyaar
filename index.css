@@ -571,15 +571,15 @@ img {
 @media (max-width: 480px) {
     .prop-amenities-section .amenities .list {
         padding: 0px;
-        margin-left: -200px;
+        margin-left: -100px;
         list-style: none;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
         margin-top: 7em;
         margin-bottom: -6em;
-        padding-top: 130px;
-        min-height: 320px;
+        padding-top: 100px;
+        min-height: 300px;
     }
 }
 .prop-amenities-section .amenities .list .item {
