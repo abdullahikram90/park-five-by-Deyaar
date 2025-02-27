@@ -82,7 +82,17 @@
     color: rgba(0, 0, 0, .5);
     border: none;
 }
-
+.navbar-toggler-icon {
+    margin-top: -20px;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 /* Toggler button styles */
 .navbar-toggler {
     padding: 0.35rem 0.85rem !important;
