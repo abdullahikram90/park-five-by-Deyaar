@@ -315,55 +315,20 @@
               Get in touch with us!
             </h3>
             <br /><br />
-            <form method="post" action="proxy.php" id="contactForm">
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Enter name"
-                  name="name"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Enter Email"
-                  name="email"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="tel"
-                  id="phone"
-                  placeholder="Enter phone Number"
-                  name="phone"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="country"
-                  placeholder="Enter country You Belong"
-                  name="country"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <select id="user-type" name="user-type" required>
-                  <option value disabled selected>Who Are You ?</option>
+            <form id="contactForm" action="https://formspree.io/f/mqaerznp" method="POST">
+              <input type="text" name="name" placeholder="Enter name" required>
+              <input type="email" name="email" placeholder="Enter Email" required>
+              <input type="tel" name="phone" placeholder="Enter phone Number" required>
+              <input type="text" name="country" placeholder="Enter country You Belong" required>
+              <select name="user-type" required>
+                  <option value disabled selected>Who Are You?</option>
                   <option value="buyer">I am a Buyer</option>
                   <option value="agent">I am an Agent</option>
-                  <option value="jobseeker">I am a jobseeker</option>
-                </select>
-              </div>
-              <div style="text-align: center">
-                <button type="submit" id="submitBtn">Get A Call Back</button>
-              </div>
-            </form>
+                  <option value="jobseeker">I am a Jobseeker</option>
+              </select>
+              <button type="submit">Get A Call Back</button>
+          </form>
+          
           </div>
         </div>
       </div>
