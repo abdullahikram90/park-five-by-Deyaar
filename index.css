@@ -445,12 +445,6 @@ img {
         margin-top: -20em;
     }
 }
-@media screen and (min-width: 386px){
-    .tunga1{
-        margin-left:-2%;
-        width: 230px;
-    }
-}
 .kuyan {
     margin-top: -2em;
     width: 100%;
@@ -460,7 +454,7 @@ img {
     border-style: none;
 }
 .tunga1 {
-    width: 360px !important;
+    width: 340px !important;
     height: 480px !important;
     float: left !important;
     margin-left: 1% !important;
