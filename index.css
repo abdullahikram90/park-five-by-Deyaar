@@ -582,6 +582,20 @@ img {
         min-height: 300px;
     }
 }
+@media (max-width: 365px) {
+    .prop-amenities-section .amenities .list {
+        padding: 0px;
+        margin-left: -250px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        margin-top: 1em;
+        margin-bottom: -6em;
+        padding-top: 190px;
+        min-height: 300px;
+    }
+}
 .prop-amenities-section .amenities .list .item {
     display: flex;
     align-items: center;
@@ -728,7 +742,8 @@ p {
     color: #fff;
     text-decoration: none;
     width: 170px;
-    height: 30px;
+    height: 50px;
+    padding-top: 10px;
 }
 @media (max-width: 600px) {
     .prop-brochure-photo-section .outer-layer .prop-detailed .prop-content .download-prop-buttons {
